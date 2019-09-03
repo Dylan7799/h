@@ -1,0 +1,1095 @@
+==========================================
+invoice : 24619-15660076168-35
+amount : 535
+resultCheckPackage : pass
+resultCheckPackage : Array
+(
+    [amount] => 53500
+    [invoice] => 24619-15660076168-35
+    [RefNo] => 
+    [currency] => THB
+    [omiseToken] => tokn_5gxayg9yhjkrh5aioyv
+)
+
+==========================================
+==========================================
+AuthorizeOmise
+OmiseCharge Object
+(
+    [OMISE_CONNECTTIMEOUT:OmiseApiResource:private] => 30
+    [OMISE_TIMEOUT:OmiseApiResource:private] => 60
+    [_values:protected] => Array
+        (
+            [object] => charge
+            [id] => chrg_5gxayh6f9ousppg3u9w
+            [livemode] => 1
+            [location] => /charges/chrg_5gxayh6f9ousppg3u9w
+            [amount] => 53500
+            [currency] => thb
+            [funding_amount] => 53500
+            [funding_currency] => thb
+            [description] => 
+            [metadata] => Array
+                (
+                )
+
+            [status] => successful
+            [capture] => 1
+            [authorized] => 1
+            [schedule] => 
+            [reversed] => 
+            [reversed_at] => 
+            [expires_at] => 2019-08-24T02:07:11Z
+            [expired] => 
+            [expired_at] => 
+            [voided] => 
+            [paid] => 1
+            [paid_at] => 2019-08-17T02:07:13Z
+            [transaction] => trxn_5gxayhlx6r8esnurr1s
+            [refunded] => 0
+            [refunds] => Array
+                (
+                    [object] => list
+                    [from] => 1970-01-01T00:00:00Z
+                    [to] => 2019-08-17T02:07:13Z
+                    [offset] => 0
+                    [limit] => 20
+                    [total] => 0
+                    [order] => chronological
+                    [location] => /charges/chrg_5gxayh6f9ousppg3u9w/refunds
+                    [data] => Array
+                        (
+                        )
+
+                )
+
+            [return_uri] => https://www.easyparcel.co.th/th/th/ReturnUrlOmise/?for=topup&inv=24619-15660076168-35&amt=53500&id=24619
+            [failure_code] => 
+            [failure_message] => 
+            [card] => Array
+                (
+                    [object] => card
+                    [id] => card_5g40rcuwtj4akt6mhqu
+                    [livemode] => 1
+                    [location] => /customers/cust_5f5kb4i3om6fonf07o5/cards/card_5g40rcuwtj4akt6mhqu
+                    [street1] => 
+                    [street2] => 
+                    [city] => 
+                    [state] => 
+                    [postal_code] => 
+                    [country] => th
+                    [phone_number] => 
+                    [financing] => debit
+                    [bank] => TMB BANK PUBLIC COMPANY LIMITED
+                    [first_digits] => 
+                    [last_digits] => 3680
+                    [brand] => Visa
+                    [expiration_month] => 6
+                    [expiration_year] => 2024
+                    [fingerprint] => /dwbRJqWwneaWoNZdwm/gzcUL+L/0fkmAND5Vdlugrg=
+                    [name] => Piyawong
+                    [security_code_check] => 1
+                    [created] => 2019-06-03T05:17:17Z
+                )
+
+            [customer] => cust_5f5kb4i3om6fonf07o5
+            [ip] => 
+            [dispute] => 
+            [created] => 2019-08-17T02:07:11Z
+            [source] => 
+            [disputable] => 1
+            [capturable] => 
+            [reversible] => 
+            [refundable] => 1
+            [reference] => paym_5gxayh6g31185e4m7kt
+            [authorize_uri] => https://api.omise.co/payments/paym_5gxayh6g31185e4m7kt/authorize
+        )
+
+    [_secretkey:protected] => skey_5a45ba53qrzhf6lvlv5
+    [_publickey:protected] => pkey_5a3qku8hapgwl2kwb41
+)
+
+==========================================
+==========================================
+ReturnUrlOmise
+2019-08-17 09:07:19
+Array
+(
+    [country] => th
+    [language] => th
+    [pg] => ReturnUrlOmise
+    [for] => topup
+    [inv] => 24619-15660076168-35
+    [amt] => 53500
+    [id] => 24619
+)
+
+OmiseCharge Object
+(
+    [OMISE_CONNECTTIMEOUT:OmiseApiResource:private] => 30
+    [OMISE_TIMEOUT:OmiseApiResource:private] => 60
+    [_values:protected] => Array
+        (
+            [object] => charge
+            [id] => chrg_5gxayh6f9ousppg3u9w
+            [livemode] => 1
+            [location] => /charges/chrg_5gxayh6f9ousppg3u9w
+            [amount] => 53500
+            [currency] => thb
+            [funding_amount] => 53500
+            [funding_currency] => thb
+            [description] => 
+            [metadata] => Array
+                (
+                )
+
+            [status] => successful
+            [capture] => 1
+            [authorized] => 1
+            [schedule] => 
+            [reversed] => 
+            [reversed_at] => 
+            [expires_at] => 2019-08-24T02:07:11Z
+            [expired] => 
+            [expired_at] => 
+            [voided] => 
+            [paid] => 1
+            [paid_at] => 2019-08-17T02:07:13Z
+            [transaction] => trxn_5gxayhlx6r8esnurr1s
+            [refunded] => 0
+            [refunds] => Array
+                (
+                    [object] => list
+                    [from] => 1970-01-01T00:00:00Z
+                    [to] => 2019-08-17T02:07:19Z
+                    [offset] => 0
+                    [limit] => 20
+                    [total] => 0
+                    [order] => chronological
+                    [location] => /charges/chrg_5gxayh6f9ousppg3u9w/refunds
+                    [data] => Array
+                        (
+                        )
+
+                )
+
+            [return_uri] => https://www.easyparcel.co.th/th/th/ReturnUrlOmise/?for=topup&inv=24619-15660076168-35&amt=53500&id=24619
+            [failure_code] => 
+            [failure_message] => 
+            [card] => Array
+                (
+                    [object] => card
+                    [id] => card_5g40rcuwtj4akt6mhqu
+                    [livemode] => 1
+                    [location] => /customers/cust_5f5kb4i3om6fonf07o5/cards/card_5g40rcuwtj4akt6mhqu
+                    [street1] => 
+                    [street2] => 
+                    [city] => 
+                    [state] => 
+                    [postal_code] => 
+                    [country] => th
+                    [phone_number] => 
+                    [financing] => debit
+                    [bank] => TMB BANK PUBLIC COMPANY LIMITED
+                    [first_digits] => 
+                    [last_digits] => 3680
+                    [brand] => Visa
+                    [expiration_month] => 6
+                    [expiration_year] => 2024
+                    [fingerprint] => /dwbRJqWwneaWoNZdwm/gzcUL+L/0fkmAND5Vdlugrg=
+                    [name] => Piyawong
+                    [security_code_check] => 1
+                    [created] => 2019-06-03T05:17:17Z
+                )
+
+            [customer] => cust_5f5kb4i3om6fonf07o5
+            [ip] => 
+            [dispute] => 
+            [created] => 2019-08-17T02:07:11Z
+            [source] => 
+            [disputable] => 1
+            [capturable] => 
+            [reversible] => 
+            [refundable] => 1
+            [reference] => paym_5gxayh6g31185e4m7kt
+            [authorize_uri] => https://api.omise.co/payments/paym_5gxayh6g31185e4m7kt/authorize
+        )
+
+    [_secretkey:protected] => skey_5a45ba53qrzhf6lvlv5
+    [_publickey:protected] => pkey_5a3qku8hapgwl2kwb41
+)
+
+==========================================
+==========================================
+invoice : 24619-15660106178-35
+amount : 535
+resultCheckPackage : pass
+resultCheckPackage : Array
+(
+    [amount] => 53500
+    [invoice] => 24619-15660106178-35
+    [RefNo] => 
+    [currency] => THB
+    [omiseToken] => tokn_5gxbg3t658hwustbqed
+)
+
+==========================================
+==========================================
+AuthorizeOmise
+OmiseCharge Object
+(
+    [OMISE_CONNECTTIMEOUT:OmiseApiResource:private] => 30
+    [OMISE_TIMEOUT:OmiseApiResource:private] => 60
+    [_values:protected] => Array
+        (
+            [object] => charge
+            [id] => chrg_5gxbg4nulj8vh8rwtvj
+            [livemode] => 1
+            [location] => /charges/chrg_5gxbg4nulj8vh8rwtvj
+            [amount] => 53500
+            [currency] => thb
+            [funding_amount] => 53500
+            [funding_currency] => thb
+            [description] => 
+            [metadata] => Array
+                (
+                )
+
+            [status] => successful
+            [capture] => 1
+            [authorized] => 1
+            [schedule] => 
+            [reversed] => 
+            [reversed_at] => 
+            [expires_at] => 2019-08-24T02:57:19Z
+            [expired] => 
+            [expired_at] => 
+            [voided] => 
+            [paid] => 1
+            [paid_at] => 2019-08-17T02:57:21Z
+            [transaction] => trxn_5gxbg52fca5y07x5f3n
+            [refunded] => 0
+            [refunds] => Array
+                (
+                    [object] => list
+                    [from] => 1970-01-01T00:00:00Z
+                    [to] => 2019-08-17T02:57:21Z
+                    [offset] => 0
+                    [limit] => 20
+                    [total] => 0
+                    [order] => chronological
+                    [location] => /charges/chrg_5gxbg4nulj8vh8rwtvj/refunds
+                    [data] => Array
+                        (
+                        )
+
+                )
+
+            [return_uri] => https://www.easyparcel.co.th/th/th/ReturnUrlOmise/?for=topup&inv=24619-15660106178-35&amt=53500&id=24619
+            [failure_code] => 
+            [failure_message] => 
+            [card] => Array
+                (
+                    [object] => card
+                    [id] => card_5g40rcuwtj4akt6mhqu
+                    [livemode] => 1
+                    [location] => /customers/cust_5f5kb4i3om6fonf07o5/cards/card_5g40rcuwtj4akt6mhqu
+                    [street1] => 
+                    [street2] => 
+                    [city] => 
+                    [state] => 
+                    [postal_code] => 
+                    [country] => th
+                    [phone_number] => 
+                    [financing] => debit
+                    [bank] => TMB BANK PUBLIC COMPANY LIMITED
+                    [first_digits] => 
+                    [last_digits] => 3680
+                    [brand] => Visa
+                    [expiration_month] => 6
+                    [expiration_year] => 2024
+                    [fingerprint] => /dwbRJqWwneaWoNZdwm/gzcUL+L/0fkmAND5Vdlugrg=
+                    [name] => Piyawong
+                    [security_code_check] => 1
+                    [created] => 2019-06-03T05:17:17Z
+                )
+
+            [customer] => cust_5f5kb4i3om6fonf07o5
+            [ip] => 
+            [dispute] => 
+            [created] => 2019-08-17T02:57:19Z
+            [source] => 
+            [disputable] => 1
+            [capturable] => 
+            [reversible] => 
+            [refundable] => 1
+            [reference] => paym_5gxbg4nv6mvut82pf0w
+            [authorize_uri] => https://api.omise.co/payments/paym_5gxbg4nv6mvut82pf0w/authorize
+        )
+
+    [_secretkey:protected] => skey_5a45ba53qrzhf6lvlv5
+    [_publickey:protected] => pkey_5a3qku8hapgwl2kwb41
+)
+
+==========================================
+==========================================
+ReturnUrlOmise
+2019-08-17 09:59:38
+Array
+(
+    [country] => th
+    [language] => th
+    [pg] => ReturnUrlOmise
+    [for] => topup
+    [inv] => 25151-15660106573-37
+    [amt] => 2140000
+    [id] => 25151
+)
+
+OmiseCharge Object
+(
+    [OMISE_CONNECTTIMEOUT:OmiseApiResource:private] => 30
+    [OMISE_TIMEOUT:OmiseApiResource:private] => 60
+    [_values:protected] => Array
+        (
+            [object] => charge
+            [id] => chrg_5gxbgojhaebfhy76xia
+            [livemode] => 1
+            [location] => /charges/chrg_5gxbgojhaebfhy76xia
+            [amount] => 2140000
+            [currency] => thb
+            [funding_amount] => 2140000
+            [funding_currency] => thb
+            [description] => 
+            [metadata] => Array
+                (
+                )
+
+            [status] => successful
+            [capture] => 1
+            [authorized] => 1
+            [schedule] => 
+            [reversed] => 
+            [reversed_at] => 
+            [expires_at] => 2019-08-24T02:58:53Z
+            [expired] => 
+            [expired_at] => 
+            [voided] => 
+            [paid] => 1
+            [paid_at] => 2019-08-17T02:59:38Z
+            [transaction] => trxn_5gxbgxvdaunwbifxdkt
+            [refunded] => 0
+            [refunds] => Array
+                (
+                    [object] => list
+                    [from] => 1970-01-01T00:00:00Z
+                    [to] => 2019-08-17T02:59:38Z
+                    [offset] => 0
+                    [limit] => 20
+                    [total] => 0
+                    [order] => chronological
+                    [location] => /charges/chrg_5gxbgojhaebfhy76xia/refunds
+                    [data] => Array
+                        (
+                        )
+
+                )
+
+            [return_uri] => https://www.easyparcel.co.th/th/th/ReturnUrlOmise/?for=topup&inv=25151-15660106573-37&amt=2140000&id=25151
+            [failure_code] => 
+            [failure_message] => 
+            [card] => Array
+                (
+                    [object] => card
+                    [id] => card_5gxbgnq6jfepmowmqvv
+                    [livemode] => 1
+                    [location] => /customers/cust_5g6iwvkyaw9xxe9de9w/cards/card_5gxbgnq6jfepmowmqvv
+                    [street1] => 
+                    [street2] => 
+                    [city] => 
+                    [state] => 
+                    [postal_code] => 
+                    [country] => th
+                    [phone_number] => 
+                    [financing] => debit
+                    [bank] => SIAM COMMERCIAL BANK PUBLIC CO., LTD.
+                    [first_digits] => 
+                    [last_digits] => 0900
+                    [brand] => MasterCard
+                    [expiration_month] => 6
+                    [expiration_year] => 2024
+                    [fingerprint] => yHl3R+9DiHO7AQj3o/uC6RCAF2ycfwnAcTExGj5M/t0=
+                    [name] => ?????”?????? ??????????????
+                    [security_code_check] => 1
+                    [created] => 2019-08-17T02:58:50Z
+                )
+
+            [customer] => cust_5g6iwvkyaw9xxe9de9w
+            [ip] => 
+            [dispute] => 
+            [created] => 2019-08-17T02:58:53Z
+            [source] => 
+            [disputable] => 1
+            [capturable] => 
+            [reversible] => 
+            [refundable] => 1
+            [reference] => paym_5gxbgoji24ut9crswdv
+            [authorize_uri] => https://api.omise.co/payments/paym_5gxbgoji24ut9crswdv/authorize
+        )
+
+    [_secretkey:protected] => skey_5a45ba53qrzhf6lvlv5
+    [_publickey:protected] => pkey_5a3qku8hapgwl2kwb41
+)
+
+==========================================
+==========================================
+ReturnUrlOmise
+2019-08-17 10:16:07
+Array
+(
+    [country] => th
+    [language] => th
+    [pg] => ReturnUrlOmise
+    [for] => topup
+    [inv] => 22401-15660116667-26
+    [amt] => 535000
+    [id] => 22401
+)
+
+OmiseCharge Object
+(
+    [OMISE_CONNECTTIMEOUT:OmiseApiResource:private] => 30
+    [OMISE_TIMEOUT:OmiseApiResource:private] => 60
+    [_values:protected] => Array
+        (
+            [object] => charge
+            [id] => chrg_5gxbmhnyfk4nk4a8q35
+            [livemode] => 1
+            [location] => /charges/chrg_5gxbmhnyfk4nk4a8q35
+            [amount] => 535000
+            [currency] => thb
+            [funding_amount] => 535000
+            [funding_currency] => thb
+            [description] => 
+            [metadata] => Array
+                (
+                )
+
+            [status] => successful
+            [capture] => 1
+            [authorized] => 1
+            [schedule] => 
+            [reversed] => 
+            [reversed_at] => 
+            [expires_at] => 2019-08-24T03:15:24Z
+            [expired] => 
+            [expired_at] => 
+            [voided] => 
+            [paid] => 1
+            [paid_at] => 2019-08-17T03:16:06Z
+            [transaction] => trxn_5gxbmqpfgqjerde8ptj
+            [refunded] => 0
+            [refunds] => Array
+                (
+                    [object] => list
+                    [from] => 1970-01-01T00:00:00Z
+                    [to] => 2019-08-17T03:16:07Z
+                    [offset] => 0
+                    [limit] => 20
+                    [total] => 0
+                    [order] => chronological
+                    [location] => /charges/chrg_5gxbmhnyfk4nk4a8q35/refunds
+                    [data] => Array
+                        (
+                        )
+
+                )
+
+            [return_uri] => https://www.easyparcel.co.th/th/th/ReturnUrlOmise/?for=topup&inv=22401-15660116667-26&amt=535000&id=22401
+            [failure_code] => 
+            [failure_message] => 
+            [card] => Array
+                (
+                    [object] => card
+                    [id] => card_5gxbmgvrynplgq6mlav
+                    [livemode] => 1
+                    [location] => /customers/cust_5dy8tnwob9cyzb9l357/cards/card_5gxbmgvrynplgq6mlav
+                    [street1] => 
+                    [street2] => 
+                    [city] => 
+                    [state] => 
+                    [postal_code] => 
+                    [country] => th
+                    [phone_number] => 
+                    [financing] => credit
+                    [bank] => CITIBANK, NATIONAL ASSOCIATION
+                    [first_digits] => 
+                    [last_digits] => 1406
+                    [brand] => Visa
+                    [expiration_month] => 6
+                    [expiration_year] => 2022
+                    [fingerprint] => tWBvk8Oa1TYi0HLoJwXrzMzCKzjGI+rbiOH1tdcXez8=
+                    [name] => chawalit inteema
+                    [security_code_check] => 1
+                    [created] => 2019-08-17T03:15:20Z
+                )
+
+            [customer] => cust_5dy8tnwob9cyzb9l357
+            [ip] => 
+            [dispute] => 
+            [created] => 2019-08-17T03:15:24Z
+            [source] => 
+            [disputable] => 1
+            [capturable] => 
+            [reversible] => 
+            [refundable] => 1
+            [reference] => paym_5gxbmhnz95z4ji5yxkd
+            [authorize_uri] => https://api.omise.co/payments/paym_5gxbmhnz95z4ji5yxkd/authorize
+        )
+
+    [_secretkey:protected] => skey_5a45ba53qrzhf6lvlv5
+    [_publickey:protected] => pkey_5a3qku8hapgwl2kwb41
+)
+
+==========================================
+==========================================
+invoice : 1163-15660146729-39
+amount : 1070
+resultCheckPackage : pass
+resultCheckPackage : Array
+(
+    [amount] => 107000
+    [invoice] => 1163-15660146729-39
+    [RefNo] => 
+    [currency] => THB
+    [omiseToken] => src_5gxc3tn7fwiyyaxnfdg
+)
+
+==========================================
+==========================================
+AuthorizeOmise
+OmiseCharge Object
+(
+    [OMISE_CONNECTTIMEOUT:OmiseApiResource:private] => 30
+    [OMISE_TIMEOUT:OmiseApiResource:private] => 60
+    [_values:protected] => Array
+        (
+            [object] => charge
+            [id] => chrg_5gxc3ttj64od6476xub
+            [livemode] => 1
+            [location] => /charges/chrg_5gxc3ttj64od6476xub
+            [amount] => 107000
+            [currency] => thb
+            [funding_amount] => 107000
+            [funding_currency] => thb
+            [description] => 
+            [metadata] => Array
+                (
+                )
+
+            [status] => pending
+            [capture] => 1
+            [authorized] => 
+            [schedule] => 
+            [reversed] => 
+            [reversed_at] => 
+            [expires_at] => 2019-08-24T04:04:39Z
+            [expired] => 
+            [expired_at] => 
+            [voided] => 
+            [paid] => 
+            [paid_at] => 
+            [transaction] => 
+            [refunded] => 0
+            [refunds] => Array
+                (
+                    [object] => list
+                    [from] => 1970-01-01T00:00:00Z
+                    [to] => 2019-08-17T04:04:39Z
+                    [offset] => 0
+                    [limit] => 20
+                    [total] => 0
+                    [order] => chronological
+                    [location] => /charges/chrg_5gxc3ttj64od6476xub/refunds
+                    [data] => Array
+                        (
+                        )
+
+                )
+
+            [return_uri] => https://easyparcel.co.th/th/th/ReturnUrlOmise/?for=topup&inv=1163-15660146729-39&amt=107000&id=1163
+            [failure_code] => 
+            [failure_message] => 
+            [card] => 
+            [customer] => 
+            [ip] => 
+            [dispute] => 
+            [created] => 2019-08-17T04:04:39Z
+            [source] => Array
+                (
+                    [object] => source
+                    [id] => src_5gxc3tn7fwiyyaxnfdg
+                    [livemode] => 1
+                    [location] => /sources/src_5gxc3tn7fwiyyaxnfdg
+                    [type] => internet_banking_ktb
+                    [flow] => redirect
+                    [amount] => 107000
+                    [currency] => thb
+                    [created] => 2019-08-17T04:04:38Z
+                )
+
+            [disputable] => 
+            [capturable] => 
+            [reversible] => 
+            [refundable] => 
+            [reference] => ofsp_5gxc3tto2t5sqtku6cw
+            [authorize_uri] => https://pay.omise.co/offsites/ofsp_5gxc3tto2t5sqtku6cw/pay
+        )
+
+    [_secretkey:protected] => skey_5a45ba53qrzhf6lvlv5
+    [_publickey:protected] => pkey_5a3qku8hapgwl2kwb41
+)
+
+==========================================
+==========================================
+ReturnUrlOmise
+2019-08-17 12:50:16
+Array
+(
+    [country] => th
+    [language] => th
+    [pg] => ReturnUrlOmise
+    [for] => topup
+    [inv] => 24619-15660209513-35
+    [amt] => 53500
+    [id] => 24619
+)
+
+OmiseCharge Object
+(
+    [OMISE_CONNECTTIMEOUT:OmiseApiResource:private] => 30
+    [OMISE_TIMEOUT:OmiseApiResource:private] => 60
+    [_values:protected] => Array
+        (
+            [object] => charge
+            [id] => chrg_5gxd4uc7xne9bkkbddc
+            [livemode] => 1
+            [location] => /charges/chrg_5gxd4uc7xne9bkkbddc
+            [amount] => 53500
+            [currency] => thb
+            [funding_amount] => 53500
+            [funding_currency] => thb
+            [description] => 
+            [metadata] => Array
+                (
+                )
+
+            [status] => successful
+            [capture] => 1
+            [authorized] => 1
+            [schedule] => 
+            [reversed] => 
+            [reversed_at] => 
+            [expires_at] => 2019-08-24T05:49:48Z
+            [expired] => 
+            [expired_at] => 
+            [voided] => 
+            [paid] => 1
+            [paid_at] => 2019-08-17T05:49:50Z
+            [transaction] => trxn_5gxd4us7jedqk7epl6s
+            [refunded] => 0
+            [refunds] => Array
+                (
+                    [object] => list
+                    [from] => 1970-01-01T00:00:00Z
+                    [to] => 2019-08-17T05:50:16Z
+                    [offset] => 0
+                    [limit] => 20
+                    [total] => 0
+                    [order] => chronological
+                    [location] => /charges/chrg_5gxd4uc7xne9bkkbddc/refunds
+                    [data] => Array
+                        (
+                        )
+
+                )
+
+            [return_uri] => https://www.easyparcel.co.th/th/th/ReturnUrlOmise/?for=topup&inv=24619-15660209513-35&amt=53500&id=24619
+            [failure_code] => 
+            [failure_message] => 
+            [card] => Array
+                (
+                    [object] => card
+                    [id] => card_5g40rcuwtj4akt6mhqu
+                    [livemode] => 1
+                    [location] => /customers/cust_5f5kb4i3om6fonf07o5/cards/card_5g40rcuwtj4akt6mhqu
+                    [street1] => 
+                    [street2] => 
+                    [city] => 
+                    [state] => 
+                    [postal_code] => 
+                    [country] => th
+                    [phone_number] => 
+                    [financing] => debit
+                    [bank] => TMB BANK PUBLIC COMPANY LIMITED
+                    [first_digits] => 
+                    [last_digits] => 3680
+                    [brand] => Visa
+                    [expiration_month] => 6
+                    [expiration_year] => 2024
+                    [fingerprint] => /dwbRJqWwneaWoNZdwm/gzcUL+L/0fkmAND5Vdlugrg=
+                    [name] => Piyawong
+                    [security_code_check] => 1
+                    [created] => 2019-06-03T05:17:17Z
+                )
+
+            [customer] => cust_5f5kb4i3om6fonf07o5
+            [ip] => 
+            [dispute] => 
+            [created] => 2019-08-17T05:49:48Z
+            [source] => 
+            [disputable] => 1
+            [capturable] => 
+            [reversible] => 
+            [refundable] => 1
+            [reference] => paym_5gxd4uc8fla0fi4mg61
+            [authorize_uri] => https://api.omise.co/payments/paym_5gxd4uc8fla0fi4mg61/authorize
+        )
+
+    [_secretkey:protected] => skey_5a45ba53qrzhf6lvlv5
+    [_publickey:protected] => pkey_5a3qku8hapgwl2kwb41
+)
+
+==========================================
+==========================================
+ReturnUrlOmise
+2019-08-17 13:40:25
+Array
+(
+    [country] => th
+    [language] => th
+    [pg] => ReturnUrlOmise
+    [for] => topup
+    [inv] => 24619-15660239960-39
+    [amt] => 107000
+    [id] => 24619
+)
+
+OmiseCharge Object
+(
+    [OMISE_CONNECTTIMEOUT:OmiseApiResource:private] => 30
+    [OMISE_TIMEOUT:OmiseApiResource:private] => 60
+    [_values:protected] => Array
+        (
+            [object] => charge
+            [id] => chrg_5gxdmkigo7aveghtnyc
+            [livemode] => 1
+            [location] => /charges/chrg_5gxdmkigo7aveghtnyc
+            [amount] => 107000
+            [currency] => thb
+            [funding_amount] => 107000
+            [funding_currency] => thb
+            [description] => 
+            [metadata] => Array
+                (
+                )
+
+            [status] => successful
+            [capture] => 1
+            [authorized] => 1
+            [schedule] => 
+            [reversed] => 
+            [reversed_at] => 
+            [expires_at] => 2019-08-24T06:40:09Z
+            [expired] => 
+            [expired_at] => 
+            [voided] => 
+            [paid] => 1
+            [paid_at] => 2019-08-17T06:40:11Z
+            [transaction] => trxn_5gxdmkyyy6rdjchvdm4
+            [refunded] => 0
+            [refunds] => Array
+                (
+                    [object] => list
+                    [from] => 1970-01-01T00:00:00Z
+                    [to] => 2019-08-17T06:40:25Z
+                    [offset] => 0
+                    [limit] => 20
+                    [total] => 0
+                    [order] => chronological
+                    [location] => /charges/chrg_5gxdmkigo7aveghtnyc/refunds
+                    [data] => Array
+                        (
+                        )
+
+                )
+
+            [return_uri] => https://www.easyparcel.co.th/th/th/ReturnUrlOmise/?for=topup&inv=24619-15660239960-39&amt=107000&id=24619
+            [failure_code] => 
+            [failure_message] => 
+            [card] => Array
+                (
+                    [object] => card
+                    [id] => card_5g40rcuwtj4akt6mhqu
+                    [livemode] => 1
+                    [location] => /customers/cust_5f5kb4i3om6fonf07o5/cards/card_5g40rcuwtj4akt6mhqu
+                    [street1] => 
+                    [street2] => 
+                    [city] => 
+                    [state] => 
+                    [postal_code] => 
+                    [country] => th
+                    [phone_number] => 
+                    [financing] => debit
+                    [bank] => TMB BANK PUBLIC COMPANY LIMITED
+                    [first_digits] => 
+                    [last_digits] => 3680
+                    [brand] => Visa
+                    [expiration_month] => 6
+                    [expiration_year] => 2024
+                    [fingerprint] => /dwbRJqWwneaWoNZdwm/gzcUL+L/0fkmAND5Vdlugrg=
+                    [name] => Piyawong
+                    [security_code_check] => 1
+                    [created] => 2019-06-03T05:17:17Z
+                )
+
+            [customer] => cust_5f5kb4i3om6fonf07o5
+            [ip] => 
+            [dispute] => 
+            [created] => 2019-08-17T06:40:09Z
+            [source] => 
+            [disputable] => 1
+            [capturable] => 
+            [reversible] => 
+            [refundable] => 1
+            [reference] => paym_5gxdmkihrkrx6lleqra
+            [authorize_uri] => https://api.omise.co/payments/paym_5gxdmkihrkrx6lleqra/authorize
+        )
+
+    [_secretkey:protected] => skey_5a45ba53qrzhf6lvlv5
+    [_publickey:protected] => pkey_5a3qku8hapgwl2kwb41
+)
+
+==========================================
+==========================================
+ReturnUrlOmise
+2019-08-17 16:36:19
+Array
+(
+    [country] => th
+    [language] => th
+    [pg] => ReturnUrlOmise
+    [for] => topup
+    [inv] => 24619-15660345580-35
+    [amt] => 53500
+    [id] => 24619
+)
+
+OmiseCharge Object
+(
+    [OMISE_CONNECTTIMEOUT:OmiseApiResource:private] => 30
+    [OMISE_TIMEOUT:OmiseApiResource:private] => 60
+    [_values:protected] => Array
+        (
+            [object] => charge
+            [id] => chrg_5gxfcj0qhbtik1515s6
+            [livemode] => 1
+            [location] => /charges/chrg_5gxfcj0qhbtik1515s6
+            [amount] => 53500
+            [currency] => thb
+            [funding_amount] => 53500
+            [funding_currency] => thb
+            [description] => 
+            [metadata] => Array
+                (
+                )
+
+            [status] => successful
+            [capture] => 1
+            [authorized] => 1
+            [schedule] => 
+            [reversed] => 
+            [reversed_at] => 
+            [expires_at] => 2019-08-24T09:36:10Z
+            [expired] => 
+            [expired_at] => 
+            [voided] => 
+            [paid] => 1
+            [paid_at] => 2019-08-17T09:36:12Z
+            [transaction] => trxn_5gxfcjgjjt7tssrd5t0
+            [refunded] => 0
+            [refunds] => Array
+                (
+                    [object] => list
+                    [from] => 1970-01-01T00:00:00Z
+                    [to] => 2019-08-17T09:36:19Z
+                    [offset] => 0
+                    [limit] => 20
+                    [total] => 0
+                    [order] => chronological
+                    [location] => /charges/chrg_5gxfcj0qhbtik1515s6/refunds
+                    [data] => Array
+                        (
+                        )
+
+                )
+
+            [return_uri] => https://www.easyparcel.co.th/th/th/ReturnUrlOmise/?for=topup&inv=24619-15660345580-35&amt=53500&id=24619
+            [failure_code] => 
+            [failure_message] => 
+            [card] => Array
+                (
+                    [object] => card
+                    [id] => card_5g40rcuwtj4akt6mhqu
+                    [livemode] => 1
+                    [location] => /customers/cust_5f5kb4i3om6fonf07o5/cards/card_5g40rcuwtj4akt6mhqu
+                    [street1] => 
+                    [street2] => 
+                    [city] => 
+                    [state] => 
+                    [postal_code] => 
+                    [country] => th
+                    [phone_number] => 
+                    [financing] => debit
+                    [bank] => TMB BANK PUBLIC COMPANY LIMITED
+                    [first_digits] => 
+                    [last_digits] => 3680
+                    [brand] => Visa
+                    [expiration_month] => 6
+                    [expiration_year] => 2024
+                    [fingerprint] => /dwbRJqWwneaWoNZdwm/gzcUL+L/0fkmAND5Vdlugrg=
+                    [name] => Piyawong
+                    [security_code_check] => 1
+                    [created] => 2019-06-03T05:17:17Z
+                )
+
+            [customer] => cust_5f5kb4i3om6fonf07o5
+            [ip] => 
+            [dispute] => 
+            [created] => 2019-08-17T09:36:10Z
+            [source] => 
+            [disputable] => 1
+            [capturable] => 
+            [reversible] => 
+            [refundable] => 1
+            [reference] => paym_5gxfcj0racevpbz9lzk
+            [authorize_uri] => https://api.omise.co/payments/paym_5gxfcj0racevpbz9lzk/authorize
+        )
+
+    [_secretkey:protected] => skey_5a45ba53qrzhf6lvlv5
+    [_publickey:protected] => pkey_5a3qku8hapgwl2kwb41
+)
+
+==========================================
+==========================================
+invoice : 24619-15660441282-35
+amount : 535
+resultCheckPackage : pass
+resultCheckPackage : Array
+(
+    [amount] => 53500
+    [invoice] => 24619-15660441282-35
+    [RefNo] => 
+    [currency] => THB
+    [omiseToken] => tokn_5gxgwoj3ymjwy4wgvgg
+)
+
+==========================================
+==========================================
+AuthorizeOmise
+OmiseCharge Object
+(
+    [OMISE_CONNECTTIMEOUT:OmiseApiResource:private] => 30
+    [OMISE_TIMEOUT:OmiseApiResource:private] => 60
+    [_values:protected] => Array
+        (
+            [object] => charge
+            [id] => chrg_5gxgwpf2yizuq5lkc04
+            [livemode] => 1
+            [location] => /charges/chrg_5gxgwpf2yizuq5lkc04
+            [amount] => 53500
+            [currency] => thb
+            [funding_amount] => 53500
+            [funding_currency] => thb
+            [description] => 
+            [metadata] => Array
+                (
+                )
+
+            [status] => successful
+            [capture] => 1
+            [authorized] => 1
+            [schedule] => 
+            [reversed] => 
+            [reversed_at] => 
+            [expires_at] => 2019-08-24T12:15:45Z
+            [expired] => 
+            [expired_at] => 
+            [voided] => 
+            [paid] => 1
+            [paid_at] => 2019-08-17T12:15:47Z
+            [transaction] => trxn_5gxgwpvk5t8cbugio4e
+            [refunded] => 0
+            [refunds] => Array
+                (
+                    [object] => list
+                    [from] => 1970-01-01T00:00:00Z
+                    [to] => 2019-08-17T12:15:47Z
+                    [offset] => 0
+                    [limit] => 20
+                    [total] => 0
+                    [order] => chronological
+                    [location] => /charges/chrg_5gxgwpf2yizuq5lkc04/refunds
+                    [data] => Array
+                        (
+                        )
+
+                )
+
+            [return_uri] => https://www.easyparcel.co.th/th/th/ReturnUrlOmise/?for=topup&inv=24619-15660441282-35&amt=53500&id=24619
+            [failure_code] => 
+            [failure_message] => 
+            [card] => Array
+                (
+                    [object] => card
+                    [id] => card_5g40rcuwtj4akt6mhqu
+                    [livemode] => 1
+                    [location] => /customers/cust_5f5kb4i3om6fonf07o5/cards/card_5g40rcuwtj4akt6mhqu
+                    [street1] => 
+                    [street2] => 
+                    [city] => 
+                    [state] => 
+                    [postal_code] => 
+                    [country] => th
+                    [phone_number] => 
+                    [financing] => debit
+                    [bank] => TMB BANK PUBLIC COMPANY LIMITED
+                    [first_digits] => 
+                    [last_digits] => 3680
+                    [brand] => Visa
+                    [expiration_month] => 6
+                    [expiration_year] => 2024
+                    [fingerprint] => /dwbRJqWwneaWoNZdwm/gzcUL+L/0fkmAND5Vdlugrg=
+                    [name] => Piyawong
+                    [security_code_check] => 1
+                    [created] => 2019-06-03T05:17:17Z
+                )
+
+            [customer] => cust_5f5kb4i3om6fonf07o5
+            [ip] => 
+            [dispute] => 
+            [created] => 2019-08-17T12:15:45Z
+            [source] => 
+            [disputable] => 1
+            [capturable] => 
+            [reversible] => 
+            [refundable] => 1
+            [reference] => paym_5gxgwpf3t5n9vviyff9
+            [authorize_uri] => https://api.omise.co/payments/paym_5gxgwpf3t5n9vviyff9/authorize
+        )
+
+    [_secretkey:protected] => skey_5a45ba53qrzhf6lvlv5
+    [_publickey:protected] => pkey_5a3qku8hapgwl2kwb41
+)
+
+==========================================
